@@ -21,7 +21,10 @@ function App() {
   }, []);
   return (
     <div className='App'>
-      <header className='App-header'>API DATA: {data}</header>
+      <header className='App-header'>
+        API DATA:
+        {data}
+      </header>
     </div>
   );
 }
